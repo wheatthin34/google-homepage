@@ -8,6 +8,7 @@
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
+    margin-bottom: 0px;
   }
 
   li {
@@ -27,3 +28,9 @@
     text-decoration: underline;
   }
 
+  .imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }
