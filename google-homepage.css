@@ -2,6 +2,12 @@
     background-color: white;
   }
 
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -16,12 +22,13 @@
   }
   
   li a {
-    display: block;
+    display: flex;
     color: rgba(0, 0, 0, .65);
     text-align: center;
     padding: 8px 14px;
     background-color: whitesmoke;
     text-decoration: none;
+    bottom: 0;
   }
 
   a:hover {
@@ -33,4 +40,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+  }
+
+  button {
+    color: rgba(0, 0, 0, .65);
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5%;
   }
