@@ -1,5 +1,6 @@
   body {
     background-color: white;
+    font-family: Arial, sans-serif;
   }
 
   .navbar {
@@ -25,10 +26,11 @@
     display: flex;
     color: rgba(0, 0, 0, .65);
     text-align: center;
-    padding: 8px 14px;
+    padding: 14px 14px;
     background-color: whitesmoke;
     text-decoration: none;
     bottom: 0;
+    font-size: 14px;
   }
 
   a:hover {
@@ -47,6 +49,18 @@
     background-color: whitesmoke;
     padding: 10px 15px;
     border: none;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 5%;
+    margin-top: 30px;
+  }
+
+  input {
+    display: block;
+    width: 475px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: solid 1px lightgray;
   }
