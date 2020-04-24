@@ -68,3 +68,10 @@
   input:hover{
     box-shadow: 0 0 6px rgba(126, 126, 126, 0.25);
   }
+
+  input:focus{
+    outline: none;
+  }
+
+
+  
